@@ -81,3 +81,11 @@ computer_guess = 1 + rand(10)
         puts "Sorry. You didn't guess the secret number (which was #{computer_guess}), btw. You lose."
     end
 end
+
+
+# Hey Jeff, I really like the simplicity of your code! 
+# Your loops and conditions are great.
+# there is one issue in your logic and that is
+# that you're reseting the computer_guess everytime you call the compare method
+# so the computer number constantly changes each time the method is called.
+# other than that - great work!
